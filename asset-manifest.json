@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/MemoryCards/static/css/main.1553c0d8.css",
+    "main.js": "/MemoryCards/static/js/main.22fa6d02.js",
+    "static/js/787.7447aaf0.chunk.js": "/MemoryCards/static/js/787.7447aaf0.chunk.js",
+    "static/media/header-bg.jpg": "/MemoryCards/static/media/header-bg.9939291cd44c1f8dd1ba.jpg",
+    "static/media/18.png": "/MemoryCards/static/media/18.3ad03bc78cbac80bc6fd.png",
+    "static/media/12.png": "/MemoryCards/static/media/12.0794ce9b291bebb771a7.png",
+    "static/media/4.png": "/MemoryCards/static/media/4.4913a8f9a309d81b3b07.png",
+    "static/media/8.png": "/MemoryCards/static/media/8.ecf0a713cc47b0c24080.png",
+    "static/media/10.png": "/MemoryCards/static/media/10.94c7b1eb75f25d8b0d34.png",
+    "static/media/15.png": "/MemoryCards/static/media/15.94b02912bd7d41cf4e68.png",
+    "static/media/11.png": "/MemoryCards/static/media/11.5440c1589e8d2ef4e87e.png",
+    "static/media/14.png": "/MemoryCards/static/media/14.d8345b1107679ff47c85.png",
+    "static/media/9.png": "/MemoryCards/static/media/9.a8af9635c2aa637acc6c.png",
+    "static/media/7.png": "/MemoryCards/static/media/7.af40253a368d495b775d.png",
+    "static/media/16.png": "/MemoryCards/static/media/16.d201cf09ea1f03e4c368.png",
+    "static/media/17.png": "/MemoryCards/static/media/17.819a4f86cd4dae9bdf93.png",
+    "static/media/3.png": "/MemoryCards/static/media/3.a6b897d15411dbdb7995.png",
+    "static/media/2.png": "/MemoryCards/static/media/2.da3469076668ddfc2414.png",
+    "static/media/1.png": "/MemoryCards/static/media/1.a0e9cfa4fa7105b8cacf.png",
+    "static/media/13.png": "/MemoryCards/static/media/13.2843232de7209f3d643e.png",
+    "static/media/6.png": "/MemoryCards/static/media/6.5c0e1e2ee0277ab802c1.png",
+    "static/media/5.png": "/MemoryCards/static/media/5.e5ae2c1cffd962541676.png",
+    "index.html": "/MemoryCards/index.html",
+    "main.1553c0d8.css.map": "/MemoryCards/static/css/main.1553c0d8.css.map",
+    "main.22fa6d02.js.map": "/MemoryCards/static/js/main.22fa6d02.js.map",
+    "787.7447aaf0.chunk.js.map": "/MemoryCards/static/js/787.7447aaf0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1553c0d8.css",
+    "static/js/main.22fa6d02.js"
+  ]
+}
