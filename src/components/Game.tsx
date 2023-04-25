@@ -16,6 +16,7 @@ export default function Game(){
     const [score, setScore] = useState(0);
     const [bestScore, setBestScore] = useState(JSON.parse(localStorage.getItem('bestScore') || '0'));
     const [gameOver, setGameOver] = useState(false);
+    const [win, setWin] = useState(false);
 
     const initializeGameImages = () =>{
         const subset = _.sampleSize(images, 9);
@@ -27,6 +28,7 @@ export default function Game(){
         setGameImages(newGameImages);
         setGameOver(false);
         setScore(0);
+        setWin(false);
         console.log(gameImages);
     }
 
@@ -57,6 +59,10 @@ export default function Game(){
             setClick(id);
             let newScore = score + 1;
             setScore(newScore);
+            if(score >= 9){
+                setGameOver(true);
+                setWin(true);
+            }
         }else{
             if(score > bestScore)
                 setBestScore(score);
@@ -81,7 +87,7 @@ export default function Game(){
                     gameImages.map((image) =>
                             <img src={image.imgSrc} alt={`picture`} id={image.id} onClick={(e) => handleImgClick(e)}/>
                     )
-                : <h2>Game Over!</h2>
+                : <h2>{win ? 'Good job!' : 'Game Over!'}</h2>
                 }
                 
             </div>
