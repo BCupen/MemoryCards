@@ -46,3 +46,13 @@ button {
   grid-template-rows: 1fr 1fr 1fr;
   row-gap: 2rem;
 }
+
+img {
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px #888888;
+}
+
+img:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
